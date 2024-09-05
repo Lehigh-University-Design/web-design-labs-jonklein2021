@@ -1,0 +1,50 @@
+:root {
+    --background-color: #eee;
+    --font-color: #333;
+    --link-color: #f0f;
+}
+
+h1, h2, h3 {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	font-optical-sizing: auto;
+	font-variation-settings: "ELGR" 1, "ELSH" 2;
+	font-size: 1.5em;
+	background-color: var(--background-color);
+	color: var(--font-color);
+	margin: 0 1em;
+	padding: 0;
+}
+
+#post-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.post, #post {
+	width: 50vw;
+	margin: 1em 0;
+	padding: 1em;
+}
+
+.post {
+    border: 1px solid #ffcf55;
+}
+
+#post {
+    border: 1px solid #6dff4d;
+}
+
+img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.highlight {
+    background-color: #ffcf55;
+}
