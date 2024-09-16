@@ -4,6 +4,31 @@
     --link-color: #f0f;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.logoholder {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logoholder img {
+    height: 2em;
+    margin-right: 0.5em;
+}
+
 h1, h2, h3 {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 400;
@@ -16,7 +41,7 @@ body {
 	font-size: 1.5em;
 	background-color: var(--background-color);
 	color: var(--font-color);
-	margin: 0 1em;
+	margin: 0;
 	padding: 0;
 }
 
