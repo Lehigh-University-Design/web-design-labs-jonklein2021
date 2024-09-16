@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lab2.css">
+    <title>Lab 2</title>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="index.html" class="logoholder">
+                <img src="images/lab2/tulip.svg" alt="tulip">
+                <h3>Home</h3>
+            </a>
+        </div>
+        <h2>CSS Exercise 2: SVG Logo</h2>
+    </div>
+    <div class="container">
+        <h2>Inline SVG</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" class="svg">
+            <style type="text/css">
+              circle:hover {fill-opacity:0.9;}
+            </style>
+            <g style="fill-opacity:0.7;">
+              <circle cx="6.5cm" cy="2cm" r="100" style="fill:red; stroke:black; stroke-width:0.1cm" transform="translate(0,50)" />
+              <circle cx="6.5cm" cy="2cm" r="100" style="fill:blue; stroke:black; stroke-width:0.1cm" transform="translate(70,150)" />
+              <circle cx="6.5cm" cy="2cm" r="100" style="fill:green; stroke:black; stroke-width:0.1cm" transform="translate(-70,150)"/>
+            </g>
+        </svg>
+    </div>
+    <div class="container">
+        <h2>SVG with &lt;img&gt; Tag</h2>
+        <p>Notice how the hover effect is lost</p>
+        <img src="images/lab2/circles.svg" alt="circles" class="svg">
+    </div>
+</body>
+</html>
