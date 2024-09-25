@@ -1,45 +1,7 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1em;
-    margin-bottom: 1em;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.navbar a {
-    text-decoration: none;
-    color: black;
-}
-
-.logoholder {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.logoholder img {
-    height: 2em;
-    margin-right: 0.5em;
-}
-
-.hide-me {
-    display: none;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    padding: 1em;
-    margin: 1em;
+.post {
+    position: relative;
+    left: calc(50% - 30vw);
+    width: 60vw;
 }
 
 .block-div, .block {
@@ -64,4 +26,81 @@ main {
     font-weight: bolder;
     border: 2px solid greenyellow;
     transform: rotate(-5deg);
+}
+
+.static {
+    position: static;
+    border: 1px solid black;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    background-color: gold;
+    padding: 0.5em;
+    z-index: 999;
+}
+
+.relative {
+    position: relative;
+    border: 1px solid black;
+    left: 1em;
+    width: calc(100% - 1em); /* ensures this won't overflow to the right */
+}
+
+.scrollable-container {
+    position: relative;
+    border: 1px solid black;
+    max-height: 20vh;
+    overflow: scroll;
+    p {
+        margin: 1em;
+    }
+}
+
+.sticky {
+    position: sticky;
+    background-color: midnightblue;
+    color: white;
+    padding: 1em;
+    top: 0; /* ensure that this "sticks" to the top */
+}
+
+.absolute-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: 1px solid black;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 10em;
+    background-color: orange;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+}
+
+.img-right {
+    float: right;
+    width: 15em;
+    aspect-ratio: 1;
+    margin: 0.5em;
+}
+
+.img-left {
+    float: left;
+    width: 15em;
+    aspect-ratio: 1;
+    margin: 0.5em;
 }

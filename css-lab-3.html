@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lab3.css">
     <title>Lab 3</title>
 </head>
@@ -16,7 +17,7 @@
         </div>
         <h2>CSS Exercise 3: Display and Intro to Structure</h2>
     </div>
-    <main>
+    <div class="post">
         <h2>CSS Display</h2>
         <h2 class="hide-me">Hidden text</h2>
         <div class="block-div">
@@ -38,10 +39,61 @@
         
         <h3>Grid</h3>
         <p>Coming in lab 5</p>
-    </main>
+    </div>
 
-    <main>
+    <div class="post">
         <h2>CSS Positioning</h2>
-    </main>
+        
+        <h3>Static</h3>
+        <div class="static">
+            This is a static div. Static positioned elements are not affected by the top, bottom, left, and right properties. It is the default option for display.
+        </div>
+
+        <h3>Fixed (Look to the bottom right)</h3>
+        <div class="fixed">
+            I'm a fixed div!
+        </div>
+
+        <h3>Relative</h3>
+        <div class="relative">
+            This div element has position: relative; Relative is positioned relative to its normal position. It's used best when there's an ancestor with some position property as well and we can alter its final position. It can be styled with left, top, bottom and right. Otherwise, it's just like static.
+        </div>
+
+        <h3>Sticky</h3>
+        <div class="scrollable-container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+            <div class="sticky">This is a sticky div</div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum voluptatem sit itaque illo provident obcaecati labore. Quam inventore placeat vel harum. Non a velit laboriosam exercitationem odit voluptatibus ipsam reiciendis omnis, asperiores, inventore sit vitae deleniti saepe blanditiis sunt consectetur commodi alias. Deleniti nihil illum deserunt eum aliquam doloribus, qui a itaque minima, nostrum sit nam. Esse, sunt quis aliquid modi neque commodi perferendis et, aliquam cum nostrum error ab repellendus autem eligendi nobis assumenda quo sed quibusdam ipsa, ipsum minus? Reiciendis laborum quidem obcaecati consequatur earum blanditiis assumenda, aliquam saepe non esse rerum atque cum dolor ut doloribus.</p>
+        </div>
+
+        <h3>Absolute</h3>
+        <p>Absolute behaves like fixed except relative to the nearest positioned ancestor instead of relative to the viewport. If an absolutely-positioned element has no positioned ancestors, it uses the document body and still moves along with page scrolling.</p>
+        <div class="absolute-container">
+            <div class="absolute"></div>
+        </div>
+    </div>
+    <div class="post">
+        <h2>CSS Float</h2>
+        <p>The CSS float property allows a developer to incorporate table-like columns in an HTML layout without the use of tables.</p>
+        <p>If it were not for the CSS float property, CSS layouts would not be possible except using absolute and relative positioning — which would be messy and would make the layout unmaintainable. The purpose of the CSS float property is, generally speaking, to push a block-level element to the left or right, taking it out of the flow in relation to other block elements. This allows naturally-flowing content to wrap around the floated element. Generally, a floated element should have an explicitly set width</p>
+        
+        <div class="container">
+            <img class="img-right" src="https://picsum.photos/200" alt="placeholder"></img>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rerum eaque harum, dolorem fuga nostrum voluptatum incidunt perspiciatis optio provident ipsum eligendi facilis eius ex unde porro sequi placeat officiis quis tenetur nemo inventore voluptas quam. Nisi vel, neque doloribus beatae debitis sequi omnis molestias consequuntur animi fugiat reiciendis voluptatem at quidem quibusdam laboriosam sunt harum amet dolor error ipsa voluptate nemo. Voluptatem aperiam necessitatibus dignissimos minus minima cumque, molestiae molestias nihil obcaecati placeat deserunt aut labore vel suscipit hic, earum pariatur, sunt ea quae. Consequuntur, aliquam? Qui aspernatur, consequatur fugiat similique repellendus quas quae nobis distinctio. Blanditiis numquam labore facilis beatae ut hic, exercitationem amet incidunt suscipit perspiciatis ducimus est dolorem quia officiis repellat modi earum ullam nisi. Dignissimos maiores, dicta fuga quibusdam reiciendis aliquam fugiat hic earum, temporibus placeat nobis fugit quas porro consectetur autem incidunt vero facere voluptate obcaecati neque. Eligendi voluptas excepturi esse reprehenderit ad? Ullam, hic. Accusantium delectus, maiores odit non esse officia sapiente eaque ipsum, et, expedita quia vel? Praesentium perspiciatis incidunt autem sapiente, a ab consequuntur quae, voluptates perferendis officia laudantium commodi, maxime itaque placeat aliquam sit asperiores quos pariatur cupiditate. Nulla veritatis labore fugiat vitae, magni, laborum mollitia magnam accusantium eum ad adipisci! Necessitatibus modi magnam illum eveniet consequuntur eligendi fugiat ad. Facere accusantium impedit adipisci provident laboriosam, iure reiciendis tempore ipsam inventore ipsa ut. Exercitationem repellendus ratione numquam fugiat aperiam incidunt, a pariatur quasi obcaecati enim minima aut odio at, consequatur quidem, velit architecto repudiandae facere recusandae. Quam, ex tenetur. Nisi maiores assumenda nobis repellat quia? Amet quia doloremque explicabo assumenda, excepturi nihil facere eligendi optio exercitationem officia perferendis iste earum quidem alias quas magni tenetur nostrum tempore ullam veritatis aspernatur reiciendis eos modi quasi! Molestias saepe velit error officiis sint amet. Itaque quam est impedit sit qui? Reiciendis, quis totam.</p>
+        </div>
+
+        <div class="container">
+            <img class="img-left" src="https://picsum.photos/300" alt="placeholder"></img>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rerum eaque harum, dolorem fuga nostrum voluptatum incidunt perspiciatis optio provident ipsum eligendi facilis eius ex unde porro sequi placeat officiis quis tenetur nemo inventore voluptas quam. Nisi vel, neque doloribus beatae debitis sequi omnis molestias consequuntur animi fugiat reiciendis voluptatem at quidem quibusdam laboriosam sunt harum amet dolor error ipsa voluptate nemo. Voluptatem aperiam necessitatibus dignissimos minus minima cumque, molestiae molestias nihil obcaecati placeat deserunt aut labore vel suscipit hic, earum pariatur, sunt ea quae. Consequuntur, aliquam? Qui aspernatur, consequatur fugiat similique repellendus quas quae nobis distinctio. Blanditiis numquam labore facilis beatae ut hic, exercitationem amet incidunt suscipit perspiciatis ducimus est dolorem quia officiis repellat modi earum ullam nisi. Dignissimos maiores, dicta fuga quibusdam reiciendis aliquam fugiat hic earum, temporibus placeat nobis fugit quas porro consectetur autem incidunt vero facere voluptate obcaecati neque. Eligendi voluptas excepturi esse reprehenderit ad? Ullam, hic. Accusantium delectus, maiores odit non esse officia sapiente eaque ipsum, et, expedita quia vel? Praesentium perspiciatis incidunt autem sapiente, a ab consequuntur quae, voluptates perferendis officia laudantium commodi, maxime itaque placeat aliquam sit asperiores quos pariatur cupiditate. Nulla veritatis labore fugiat vitae, magni, laborum mollitia magnam accusantium eum ad adipisci! Necessitatibus modi magnam illum eveniet consequuntur eligendi fugiat ad. Facere accusantium impedit adipisci provident laboriosam, iure reiciendis tempore ipsam inventore ipsa ut. Exercitationem repellendus ratione numquam fugiat aperiam incidunt, a pariatur quasi obcaecati enim minima aut odio at, consequatur quidem, velit architecto repudiandae facere recusandae. Quam, ex tenetur. Nisi maiores assumenda nobis repellat quia? Amet quia doloremque explicabo assumenda, excepturi nihil facere eligendi optio exercitationem officia perferendis iste earum quidem alias quas magni tenetur nostrum tempore ullam veritatis aspernatur reiciendis eos modi quasi! Molestias saepe velit error officiis sint amet. Itaque quam est impedit sit qui? Reiciendis, quis totam.</p>
+        </div>
+    </div>
 </body>
 </html>
