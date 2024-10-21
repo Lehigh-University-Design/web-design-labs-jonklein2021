@@ -1,0 +1,46 @@
+.navtest {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    background-color: lavender;
+    height: 100vh;
+}
+
+.landingText {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    width: 50%;
+}
+
+.landingImage {
+    background-color: honeydew;
+    width: 50%;
+}
+
+img {
+    width: 50%;
+    aspect-ratio: 1;
+}
+
+.card {
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: lightcyan;
+    border-radius: 1em;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.card * {
+    margin: 0;
+    padding: 0;
+}
